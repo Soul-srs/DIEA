@@ -28,4 +28,5 @@ body {
     height: 60%;
     background-color: black;
     border-radius: 1000px;
+    transition: width ease 0.3s, height ease 0.3s, borderRadius ease 0.3s;
 }
