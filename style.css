@@ -4,4 +4,28 @@ html {
 
 body {
     background-color: silver;
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#notch-container {
+    width: 30%;
+    height: 25%;
+    /*border: solid 1px black;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1000px;
+}
+
+#notch {
+    width: 85%;
+    height: 60%;
+    background-color: black;
+    border-radius: 1000px;
 }
