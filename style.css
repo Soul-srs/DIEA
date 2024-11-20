@@ -14,8 +14,8 @@ body {
 }
 
 #notch-container {
-    width: 30%;
-    height: 25%;
+    width: 60%;
+    height: 100%;
     /*border: solid 1px black;*/
     display: flex;
     justify-content: center;
@@ -24,9 +24,47 @@ body {
 }
 
 #notch {
-    width: 85%;
-    height: 60%;
+    width: 45%;
+    height: 20%;
     background-color: black;
     border-radius: 1000px;
     transition: width ease 0.3s, height ease 0.3s, borderRadius ease 0.3s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+#buttons {
+    width: 15%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 5px;
+    border-radius: 20px;
+    position: absolute;
+    left: 2.5%;
+}
+
+#face-id-button {
+    width: 60%;
+    height: 10%;
+    border: solid 1px black;
+    border-radius: 20px;
+    background-color: gray;
+    color: rgb(50, 50, 50);
+    position: absolute;
+    top: 5%;
+}
+
+#charge-button {
+    width: 60%;
+    height: 10%;
+    border: solid 1px black;
+    border-radius: 20px;
+    background-color: gray;
+    color: rgb(50, 50, 50);
+    position: absolute;
+    top: 20%;
+}
+
